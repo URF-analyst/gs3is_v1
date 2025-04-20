@@ -38,7 +38,7 @@ Regular Commits:
 "Commit your changes frequently with descriptive messages. This makes it easier to track down the source of any issues."
 git config --global user.email "aaurfanalyst@gmail.com"
 git config --global user.name 'URF-analyst'
-
+(now do not edit files)
 git init
 git add .
 git commit -m "Initial commit of s3is project"
