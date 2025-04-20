@@ -47,6 +47,7 @@ git remote add origin https://github.com/URF-analyst/gs3is_v1.git
 git push -u origin master/main (any one)
 
 (IF) : remote: Support for password authentication was removed on August 13, 2021. error (DO) get personal access tokens in dev settings in github. USE PAT as psswd.
+(IF): lready made repo. (do) [fetch the latest changes]git fetch origin >> [Integrate the Remote Changes and merge] git checkout master >> git merge origin/master
 
 
 
