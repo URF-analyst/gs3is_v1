@@ -1,0 +1,16 @@
+crispy-bootstrap5
+django-ckeditor
+dj-database-url
+Django
+djangorestframework-gis
+django_tables2
+pytz
+whitenoise
+python-decouple
+python-form
+pandas
+palettable
+django-map-widgets
+leaflet
+django-geojson
+Pillow

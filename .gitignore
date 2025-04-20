@@ -1,0 +1,6 @@
+.env
+.superuser
+*.log
+*.pot
+*.pyc
+__pycache__/
