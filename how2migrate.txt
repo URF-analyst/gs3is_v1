@@ -19,7 +19,9 @@ Generating requirements.txt:
 pip freeze > requirements.txt
 "Run this command within your activated virtual environment to capture the current state of your installed packages."
 Installing from requirements.txt:
-pip install -r requirements.txt
+pip install wheel
+pip install -r requirements.txt --use-pep517
+
 "When setting up your project on a new system, use this command to install the required packages."
 Keeping it Updated:
 "Make it a habit to regenerate requirements.txt whenever you install or update a package."
@@ -34,6 +36,19 @@ Keeping it Updated:
 "Avoid commiting any local configuration files, or files that contain secrets."
 Regular Commits:
 "Commit your changes frequently with descriptive messages. This makes it easier to track down the source of any issues."
+git config --global user.email "aaurfanalyst@gmail.com"
+git config --global user.name 'URF-analyst'
+
+git init
+git add .
+git commit -m "Initial commit of s3is project"
+
+git remote add origin https://github.com/URF-analyst/gs3is_v1.git
+git push -u origin master/main (any one)
+
+(IF) : remote: Support for password authentication was removed on August 13, 2021. error (DO) get personal access tokens in dev settings in github. USE PAT as psswd.
+
+
 
 4. Database Migrations and Handling:
 
