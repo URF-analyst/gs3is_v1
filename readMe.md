@@ -4,5 +4,5 @@ The Geo-Spatial Spectral Signature Information System (GS3IS) is a primarily ope
 
 WIP.
 Will be available soon.
-first working beta version max by july 2024
+first working beta version max by july 2025
 
